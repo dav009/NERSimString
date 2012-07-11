@@ -4,7 +4,7 @@
  */
 package Dictionary;
 
-import java.io.IOException;
+import java.io.*;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 import java.util.Properties;
@@ -22,7 +22,7 @@ import jdbm.htree.HTree;
  *
  * @author attickid
  */
-public class LowLevelHashMappedDictionary2 implements LowLevelDictionaryImplementation {
+public class LowLevelHashMappedDictionary2 implements LowLevelDictionaryImplementation, java.io.Serializable{
     
     
     RecordManager mapOfTerms_db; 
@@ -32,19 +32,23 @@ public class LowLevelHashMappedDictionary2 implements LowLevelDictionaryImplemen
     private static int max_transactions=3000;
     
        HTree mapOfTerms;
-       HTree  mapOfIds;
-      HTree mapOfSizes;
+       HTree mapOfIds;
+       HTree mapOfSizes;
     
         //size of ngrams
-    int ngramSize;
+        int ngramSize;
 
     //current maxID of a term
     private int id=0;
     
     private int transactionCounter=0;
+    private String  pathToDictionary;
+    
+    
     
     public LowLevelHashMappedDictionary2(String pathToDictionary,int ngramsize){
         try {
+            this.pathToDictionary= pathToDictionary;
             this.ngramSize=ngramsize;
             //loads everything
               Properties props = new Properties();
@@ -111,11 +115,43 @@ public class LowLevelHashMappedDictionary2 implements LowLevelDictionaryImplemen
             this.mapOfIds_db.commit();
             this.mapOfSizes_db.commit();
             this.mapOfTerms_db.commit();
+            
+            //serialize the object
+            FileOutputStream fileOut = new FileOutputStream(this.pathToDictionary);
+            ObjectOutputStream out =new ObjectOutputStream(fileOut);
+            out.writeObject(this);
+            out.close();
+            fileOut.close();
+     
         } catch (IOException ex) {
             Logger.getLogger(LowLevelHashMappedDictionary2.class.getName()).log(Level.SEVERE, null, ex);
         }
    }
 
+    /* Given a path it loads the dictionary found in that path and retuns a lowLevel representation
+    * @param id term id
+    */
+   public static LowLevelHashMappedDictionary2 load(String dictionaryPath){
+        LowLevelHashMappedDictionary2 e = null;
+         try
+         {
+            FileInputStream fileIn = new FileInputStream(dictionaryPath);
+            ObjectInputStream in = new ObjectInputStream(fileIn);
+            e = (LowLevelHashMappedDictionary2) in.readObject();
+            in.close();
+            fileIn.close();
+        }catch(IOException i)
+        {
+            i.printStackTrace();
+            return null;
+        }catch(ClassNotFoundException c)
+        {
+           
+            return null;
+        }
+         return e;
+   }
+   
     /* given an id of a term returns its String representation 
     * @param id term id
     */

@@ -19,6 +19,9 @@ import simstring.SimString;
 public class MappedHashTableExample {
     
         public static void main(String[] args){
+            
+            /* CREATING AND QUERYING A DICTIONARY */
+            
                  //specifies the number of n-grams : 3
                  //the output file of the dictionary: dbDav.test
                  LowLevelHashMappedDictionary2 dimp=new LowLevelHashMappedDictionary2(3,"/home/attickid/testOutput/dbDav.test");
@@ -40,6 +43,8 @@ public class MappedHashTableExample {
                 // the query
                 SimString.search(d1, MeasureFactory.create(MeasureFactory.COSINE_SIMILARITY, 0.8), "samen Adv O");
            
+        
+            /* LOADING AND QUERYING A DICTIONARY */    
         }
     
 }
