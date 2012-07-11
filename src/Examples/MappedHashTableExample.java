@@ -2,6 +2,8 @@
  * This is just an example class for the users of the library.
  * This example shows how to create and query a dictionary created 
  * on a mapped hash table
+ * 
+ *  * This is a data structure is stored in disk
  */
 package Examples;
 

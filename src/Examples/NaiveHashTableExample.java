@@ -2,6 +2,8 @@
  * This is just an example class for the users of the library.
  * This example shows how to create and query a dictionary created 
  * on a hashTable Implementation
+ * 
+ *This is a data structure hold in memory
  */
 package Examples;
 
