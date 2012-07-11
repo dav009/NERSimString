@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2011.10.21)  11 JUL 2012 17:46
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2011.10.21)  11 JUL 2012 17:48
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -557,11 +557,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 16.
  (./intro.tex) (./implementation.tex) (./results.tex) (./conclusion.tex) [1
 
-] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  2902 strings out of 495724
  35125 string characters out of 1189345
