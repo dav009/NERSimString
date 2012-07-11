@@ -26,13 +26,10 @@ public class Main {
      */
     public static void main(String[] args) throws IOException
     {
-       // SimStringWrapper.pathToExecutable="D:\\temp\\simstring.exe";
-        //SimStringWrapper.constructDictionary("D:\\temp\\ned.train2", "D:\\temp\\ned.train2.db");
-        //SimStringWrapper.search("We Pron O", "D:\\temp\\ned.train2.db", 0.9, SimilarityMeasure.COSINE);
-
-
+       
         // TODO code application logic here
         Ngram.splitIntoNGrams("methyl sulphone", 3);
+        
         //creating
         LowLevelHashMappedDictionary2 dimp=new LowLevelHashMappedDictionary2(3,"/home/attickid/dbDav.test");
         DictionaryGenerator d1=new DictionaryImplementation(dimp);

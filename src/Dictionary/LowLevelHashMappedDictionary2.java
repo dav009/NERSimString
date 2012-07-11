@@ -103,7 +103,9 @@ public class LowLevelHashMappedDictionary2 implements LowLevelDictionaryImplemen
    }
 
         
-   
+   /*
+    * saves in to the files the current table of ids, sizes and terms
+    */
    public void commit(){
         try {
             this.mapOfIds_db.commit();
