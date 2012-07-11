@@ -45,8 +45,8 @@ public class LowLevelHashMappedDictionary2 implements LowLevelDictionaryImplemen
     private String  pathToDictionary;
     
     
-    
-    public LowLevelHashMappedDictionary2(String pathToDictionary,int ngramsize){
+    //loads a dictionary given ngramsize and pathToDictionary
+    private LowLevelHashMappedDictionary2(String pathToDictionary,int ngramsize){
         try {
             this.pathToDictionary= pathToDictionary;
             this.ngramSize=ngramsize;
@@ -79,6 +79,7 @@ public class LowLevelHashMappedDictionary2 implements LowLevelDictionaryImplemen
    public LowLevelHashMappedDictionary2(int ngramSize,String pathToDictionary){
         try {
             Properties props = new Properties();
+            this.pathToDictionary= pathToDictionary;
              
              
              mapOfTerms_db=  RecordManagerFactory.createRecordManager( pathToDictionary+"_terms",props);
@@ -117,13 +118,14 @@ public class LowLevelHashMappedDictionary2 implements LowLevelDictionaryImplemen
             this.mapOfTerms_db.commit();
             
             //serialize the object
-            FileOutputStream fileOut = new FileOutputStream(this.pathToDictionary);
-            ObjectOutputStream out =new ObjectOutputStream(fileOut);
-            out.writeObject(this);
-            out.close();
-            fileOut.close();
+         //   System.out.println("path to dict: "+this.pathToDictionary);
+          //  FileOutputStream fileOut = new FileOutputStream(this.pathToDictionary);
+           // ObjectOutputStream out =new ObjectOutputStream(fileOut);
+            //out.writeObject(this);
+            //out.close();
+            //fileOut.close();
      
-        } catch (IOException ex) {
+        } catch (Exception ex) {
             Logger.getLogger(LowLevelHashMappedDictionary2.class.getName()).log(Level.SEVERE, null, ex);
         }
    }
@@ -131,25 +133,8 @@ public class LowLevelHashMappedDictionary2 implements LowLevelDictionaryImplemen
     /* Given a path it loads the dictionary found in that path and retuns a lowLevel representation
     * @param id term id
     */
-   public static LowLevelHashMappedDictionary2 load(String dictionaryPath){
-        LowLevelHashMappedDictionary2 e = null;
-         try
-         {
-            FileInputStream fileIn = new FileInputStream(dictionaryPath);
-            ObjectInputStream in = new ObjectInputStream(fileIn);
-            e = (LowLevelHashMappedDictionary2) in.readObject();
-            in.close();
-            fileIn.close();
-        }catch(IOException i)
-        {
-            i.printStackTrace();
-            return null;
-        }catch(ClassNotFoundException c)
-        {
-           
-            return null;
-        }
-         return e;
+   public static LowLevelHashMappedDictionary2 load(String dictionaryPath,int ngramSize){
+       return new LowLevelHashMappedDictionary2(dictionaryPath,ngramSize);
    }
    
     /* given an id of a term returns its String representation 
