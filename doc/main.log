@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2011.10.21)  11 JUL 2012 17:48
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2011.10.21)  11 JUL 2012 20:35
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -555,16 +555,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 16.
- (./intro.tex) (./implementation.tex) (./results.tex) (./conclusion.tex) [1
+ (./intro.tex [1
 
-] (./main.aux) ) 
+]
+Overfull \hbox (133.90836pt too wide) in paragraph at lines 57--59
+[]\OT1/cmr/m/n/10 Where is the code avail-able? the repos-i-tory is hosted at g
+ithub : https://github.com/dav009/NERSimString 
+ []
+
+) (./implementation.tex) (./results.tex) (./conclusion.tex) [2] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  2902 strings out of 495724
  35125 string characters out of 1189345
- 77086 words of memory out of 3000000
+ 79086 words of memory out of 3000000
  6002 multiletter control sequences out of 15000+50000
  8592 words of font info for 30 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 34i,11n,23p,197b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,11n,23p,380b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (1 page).
+Output written on main.pdf (2 pages).
