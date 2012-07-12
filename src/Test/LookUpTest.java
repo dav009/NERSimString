@@ -34,7 +34,7 @@ public class LookUpTest {
                  Test suffixTreeTest=new Test("suffixTreetest",d1);
                  
                  
-                 TestAssesor suffixTreeAssessor=new TestAssesor(suffixTreeTest,30);
+                 TestAssesor suffixTreeAssessor=new TestAssesor(suffixTreeTest,200);
                 return  suffixTreeAssessor.run();
                  
                  
@@ -71,7 +71,7 @@ public class LookUpTest {
                   Test hashTableTest=new Test("hashTableTest",d2);
                  
                  
-                 TestAssesor hashTableAssessor=new TestAssesor(hashTableTest,30);
+                 TestAssesor hashTableAssessor=new TestAssesor(hashTableTest,200);
                 return hashTableAssessor.run();
     }
                  
