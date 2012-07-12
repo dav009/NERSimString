@@ -33,16 +33,21 @@ public class NaiveHashTableExample {
                  //tells where is the dictionary that one wants to process
                  //the number of n-grams 
                  //the dictonayImplementation that is incharged of making it
-                 DictionaryReader.createDictionaryFromCorpus("/home/attickid/ned.train2",3,d1);
+                 DictionaryReader.createDictionaryFromCorpus("/home/attickid/canadianActors",3,d1);
                 
-       
-           
-                //calls the search algorithm 
-                //it takes as an input the dictionaryImplemntation
-                //the disered mesaure
-                // the query
-                SimString.search(d1, MeasureFactory.create(MeasureFactory.COSINE_SIMILARITY, 0.8), "samen Adv O");
- 
+                 long totalTime=0;
+                 for(int i=0;i<30;i++){
+                      System.out.println("time:"+i);
+                    long start = System.currentTimeMillis();
+                    //calls the search algorithm 
+                    //it takes as an input the dictionaryImplemntation
+                    //the disered mesaure
+                    // the query
+                    SimString.search(d1, MeasureFactory.create(MeasureFactory.COSINE_SIMILARITY, 0.2), "Chandra West");
+                    long end = System.currentTimeMillis();
+                    totalTime+=end-start;
+                 }
+                 System.out.println("Execution time was "+(totalTime)+" ms.");
     
     }
     
