@@ -4,10 +4,7 @@
  */
 package Test;
 
-import Dictionary.DictionaryGenerator;
-import Dictionary.DictionaryImplementation;
-import Dictionary.LowLevelHashDictionary;
-import Dictionary.LowLevelSuffixTreeImplementation;
+import Dictionary.*;
 import IO.DictionaryReader;
 
 /**
@@ -15,6 +12,30 @@ import IO.DictionaryReader;
  * @author David Przybilla
  */
 public class LookUpTest {
+    
+    
+            public static double testMappedHashTable(){
+                //specifies the number of n-grams : 3
+                 //the output file of the dictionary: dbDav.test
+                 LowLevelHashMappedDictionary2 dimp=new LowLevelHashMappedDictionary2(3,"/home/attickid/testOutput/dbDav.test");
+                 
+                 //wrapping the lowlevel implementation
+                 DictionaryGenerator d1=new DictionaryImplementation(dimp);
+                 
+                 //tells where is the dictionary that one wants to process
+                 //the number of n-grams 
+                 //the dictonayImplementation that is incharged of making it
+                DictionaryReader.createDictionaryFromCorpus("/home/attickid/ned.train2",3,d1);
+                 //saves the dictionary into memeory
+                 dimp.commit();
+       
+                 
+                 Test mappedHashTableTest=new Test("mapped hashtable",d1);
+                 
+                 
+                 TestAssesor suffixTreeAssessor=new TestAssesor(mappedHashTableTest,200);
+                return  suffixTreeAssessor.run();
+            }
     
             public static double testSuffixTrees(){
             
@@ -49,9 +70,13 @@ public class LookUpTest {
                  //hash table
                 double averageHashTables= testHashtables(); 
                 
+                 //hash table
+                double averageMappedHashTables=  testMappedHashTable(); 
+                
                 
                 System.out.println("average suffix trees:"+ averageSuffixTrees);
                 System.out.println("average hash table:"+ averageHashTables);
+                System.out.println("average mapped hash table:"+ averageMappedHashTables);
                  
              }
 
