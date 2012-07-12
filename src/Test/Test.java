@@ -6,6 +6,7 @@ package Test;
 
 import Dictionary.DictionaryGenerator;
 import Measures.MeasureFactory;
+import org.apache.commons.lang3.RandomStringUtils;
 import simstring.SimString;
 
 /**
@@ -26,7 +27,10 @@ import simstring.SimString;
     }
     
     public  void run(){
-           SimString.search(d, MeasureFactory.create(MeasureFactory.COSINE_SIMILARITY, 0.2), "Chandra West");               
+           //randomly generated string
+           String query="";
+           query=RandomStringUtils.randomAlphabetic(3)+" "+RandomStringUtils.randomAlphabetic(3)+" "+RandomStringUtils.randomAlphabetic(3);
+           SimString.search(d, MeasureFactory.create(MeasureFactory.COSINE_SIMILARITY, 0.2), query);               
     }
     
 
