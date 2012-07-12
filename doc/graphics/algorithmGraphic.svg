@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="233.01604"
-     inkscape:cy="11.43286"
+     inkscape:cx="247.51006"
+     inkscape:cy="-985.49805"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1069,5 +1069,386 @@
          y="1207.8842"
          style="font-size:25px;fill:#cf0058;fill-opacity:1"
          id="tspan3153-5">Implementation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cf0058;fill-opacity:1;stroke:none;font-family:Sans"
+       x="42.432617"
+       y="1320.6823"
+       id="text3871-9-2-3-0-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="42.432617"
+         y="1320.6823"
+         style="font-size:25px;fill:#cf0058;fill-opacity:1"
+         id="tspan4454-0-0-3-7">Implements</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cf0058;fill-opacity:1;stroke:none;font-family:Sans"
+       x="109.19531"
+       y="1080.2592"
+       id="text3871-9-2-3-0-6-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="109.19531"
+         y="1080.2592"
+         style="font-size:25px;fill:#cf0058;fill-opacity:1"
+         id="tspan4454-0-0-3-7-6">Implements</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cf0058;fill-opacity:1;stroke:none;font-family:Sans"
+       x="105.19531"
+       y="924.25916"
+       id="text3871-9-2-3-0-6-5-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="105.19531"
+         y="924.25916"
+         style="font-size:25px;fill:#cf0058;fill-opacity:1"
+         id="tspan4454-0-0-3-7-6-8">Implements</tspan></text>
+    <rect
+       style="fill:#41b2c0;fill-opacity:0.54794521;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4540-0-76-4"
+       width="237.07031"
+       height="148.00616"
+       x="-189.948"
+       y="2024.8601"
+       rx="29.955263"
+       ry="7.0934849" />
+    <rect
+       style="fill:#41b2c0;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4540-0-7-0-3"
+       width="237.07031"
+       height="37.006165"
+       x="-189.12231"
+       y="2160.3601"
+       rx="29.955263"
+       ry="1.4502414" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cf0058;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-139.48364"
+       y="2187.2422"
+       id="text3871-9-2-3-03"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-139.48364"
+         y="2187.2422"
+         style="font-size:25px;fill:#cf0058;fill-opacity:1"
+         id="tspan3091-2">Measure</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cf0058;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-133.1731"
+       y="2237.5103"
+       id="text3871-9-2-3-0-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-133.1731"
+         y="2237.5103"
+         style="font-size:25px;fill:#cf0058;fill-opacity:1"
+         id="tspan4454-0-0-3-4">Interface</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-182.33887"
+       y="2056.7109"
+       id="text3871-2-7-3-4-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-182.33887"
+         y="2056.7109"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3172-7-5">Interface for allowing</tspan><tspan
+         sodipodi:role="line"
+         x="-182.33887"
+         y="2081.7109"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3103-9">different </tspan><tspan
+         sodipodi:role="line"
+         x="-182.33887"
+         y="2106.7109"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3107-4">Implementations</tspan><tspan
+         sodipodi:role="line"
+         x="-182.33887"
+         y="2131.7109"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3109-9">of Measures</tspan><tspan
+         sodipodi:role="line"
+         x="-182.33887"
+         y="2156.7109"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3052-6-6-2"> </tspan></text>
+    <rect
+       style="fill:#41b2c0;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4540-0-7-0-9-2"
+       width="237.07031"
+       height="40.006165"
+       x="367.24023"
+       y="1932.8591"
+       rx="29.955263"
+       ry="1.4502414" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cf0058;fill-opacity:1;stroke:none;font-family:Sans"
+       x="443.87891"
+       y="1964.7411"
+       id="text3871-9-2-3-3-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="443.87891"
+         y="1964.7411"
+         style="font-size:25px;fill:#cf0058;fill-opacity:1"
+         id="tspan3091-0-1">Dice</tspan></text>
+    <rect
+       style="fill:#41b2c0;fill-opacity:0.54794521;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4540-0-76-8-5-1"
+       width="237.07031"
+       height="140.00616"
+       x="364.41455"
+       y="2115.3591"
+       rx="29.955263"
+       ry="7.0934854" />
+    <rect
+       style="fill:#41b2c0;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4540-0-7-0-9-0-0"
+       width="237.07031"
+       height="40.006157"
+       x="365.24023"
+       y="2210.8591"
+       rx="29.955263"
+       ry="1.4502413" />
+    <rect
+       style="fill:#41b2c0;fill-opacity:0.54794521;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4540-0-76-8-5-6-5"
+       width="237.07031"
+       height="108.00616"
+       x="303.41455"
+       y="2469.3591"
+       rx="29.955263"
+       ry="7.0934844" />
+    <rect
+       style="fill:#41b2c0;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4540-0-7-0-9-0-9-8"
+       width="237.07031"
+       height="38.006157"
+       x="304.24023"
+       y="2564.8591"
+       rx="29.955263"
+       ry="1.4502416" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cf0058;fill-opacity:1;stroke:none;font-family:Sans"
+       x="365.87891"
+       y="2588.7412"
+       id="text3871-9-2-3-3-6-3-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="365.87891"
+         y="2588.7412"
+         style="font-size:25px;fill:#cf0058;fill-opacity:1"
+         id="tspan3153-7">Cosine</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cf0058;fill-opacity:1;stroke:none;font-family:Sans"
+       x="417.91797"
+       y="2237.1343"
+       id="text3871-9-2-3-3-6-3-7-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="417.91797"
+         y="2237.1343"
+         style="font-size:25px;fill:#cf0058;fill-opacity:1"
+         id="tspan3153-5-3">Jaccard</tspan></text>
+    <rect
+       style="fill:#41b2c0;fill-opacity:0.54794521;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4540-0-76-8-5-6-3"
+       width="237.07031"
+       height="75.006165"
+       x="366.46484"
+       y="1867.8591"
+       rx="29.955263"
+       ry="7.0934854" />
+    <g
+       id="g4387-7-7-8-6"
+       transform="matrix(-0.69967042,-0.71446574,0.71446574,-0.69967042,72.141705,2445.9332)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3875-6-0-6-4"
+         d="m -151.66273,146.31188 254.80247,-11.30301 -0.5051,-0.86306 0,0"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:nodetypes="cccc" />
+      <path
+         transform="matrix(0.66194129,0,0,0.64095602,23.142961,63.921872)"
+         inkscape:transform-center-y="0.22618463"
+         inkscape:transform-center-x="-2.9787355"
+         d="m 105,130.36218 -1.22243,-33.294226 29.44486,15.588456 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="3.1048931"
+         sodipodi:arg1="2.0576956"
+         sodipodi:r2="9.617692"
+         sodipodi:r1="19.235384"
+         sodipodi:cy="113.36218"
+         sodipodi:cx="114"
+         sodipodi:sides="3"
+         id="path4385-9-4-0-0"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g4387-7-7-8-8-0"
+       transform="matrix(-0.99996748,-0.00806503,0.00806503,-0.99996748,198.84632,2266.9215)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3875-6-0-6-8-4"
+         d="m -151.66273,146.31188 254.80247,-11.30301 -0.5051,-0.86306 0,0"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:nodetypes="cccc" />
+      <path
+         transform="matrix(0.66194129,0,0,0.64095602,23.142961,63.921872)"
+         inkscape:transform-center-y="0.22618463"
+         inkscape:transform-center-x="-2.9787355"
+         d="m 105,130.36218 -1.22243,-33.294226 29.44486,15.588456 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="3.1048931"
+         sodipodi:arg1="2.0576956"
+         sodipodi:r2="9.617692"
+         sodipodi:r1="19.235384"
+         sodipodi:cy="113.36218"
+         sodipodi:cx="114"
+         sodipodi:sides="3"
+         id="path4385-9-4-0-9-62"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g4387-7-7-8-8-7-6"
+       transform="matrix(-0.9913429,0.39200298,-8.4680547e-4,-1.0083978,198.2728,2105.7962)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3875-6-0-6-8-7-7"
+         d="m -151.66273,146.31188 254.80247,-11.30301 -0.5051,-0.86306 0,0"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:nodetypes="cccc" />
+      <path
+         transform="matrix(0.66194129,0,0,0.64095602,23.142961,63.921872)"
+         inkscape:transform-center-y="0.22618463"
+         inkscape:transform-center-x="-2.9787355"
+         d="m 105,130.36218 -1.22243,-33.294226 29.44486,15.588456 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="3.1048931"
+         sodipodi:arg1="2.0576956"
+         sodipodi:r2="9.617692"
+         sodipodi:r1="19.235384"
+         sodipodi:cy="113.36218"
+         sodipodi:cx="114"
+         sodipodi:sides="3"
+         id="path4385-9-4-0-9-6-5"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="star" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="366.54102"
+       y="1895.46"
+       id="text3871-2-7-3-4-2-5-8-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="366.54102"
+         y="1895.46"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3109-1-4-6-4">Dice similarity Measure</tspan><tspan
+         sodipodi:role="line"
+         x="366.54102"
+         y="1920.46"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3052-6-6-0-7-2-2"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="377.34473"
+       y="2148.46"
+       id="text3871-2-7-3-4-2-5-8-3-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="377.34473"
+         y="2148.46"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3109-1-4-6-4-6">Jaccard</tspan><tspan
+         sodipodi:role="line"
+         x="377.34473"
+         y="2173.46"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3486"> similarity Measure</tspan><tspan
+         sodipodi:role="line"
+         x="377.34473"
+         y="2198.46"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3052-6-6-0-7-2-2-4"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="319.99121"
+       y="2507.96"
+       id="text3871-2-7-3-4-2-5-8-3-2-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="319.99121"
+         y="2507.96"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3109-1-4-6-4-6-8">Cosine</tspan><tspan
+         sodipodi:role="line"
+         x="319.99121"
+         y="2532.96"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3486-3"> similarity Measure</tspan><tspan
+         sodipodi:role="line"
+         x="319.99121"
+         y="2557.96"
+         style="font-size:20px;fill:#ffffff"
+         id="tspan3052-6-6-0-7-2-2-4-3"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cf0058;fill-opacity:1;stroke:none;font-family:Sans"
+       x="167.19531"
+       y="2001.2592"
+       id="text3871-9-2-3-0-6-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="167.19531"
+         y="2001.2592"
+         style="font-size:25px;fill:#cf0058;fill-opacity:1"
+         id="tspan4454-0-0-3-7-9">Implements</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cf0058;fill-opacity:1;stroke:none;font-family:Sans"
+       x="165.19531"
+       y="2161.2593"
+       id="text3871-9-2-3-0-6-7-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="165.19531"
+         y="2161.2593"
+         style="font-size:25px;fill:#cf0058;fill-opacity:1"
+         id="tspan4454-0-0-3-7-9-3">Implements</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cf0058;fill-opacity:1;stroke:none;font-family:Sans"
+       x="85.195312"
+       y="2402.2593"
+       id="text3871-9-2-3-0-6-7-0-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="85.195312"
+         y="2402.2593"
+         style="font-size:25px;fill:#cf0058;fill-opacity:1"
+         id="tspan4454-0-0-3-7-9-3-3">Implements</tspan></text>
   </g>
 </svg>
