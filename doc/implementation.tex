@@ -1,3 +1,60 @@
+The concept behind the implementation was to make a highly object oriented framework
+so that the different parts could be replaced by new ones transparently and thus allowing
+for further experimentation and expansion of the tool.
+The chosen language for the implementation was Java, since Java is a popular programming language
+it opens up the possibility of using the tool with many other packages or even as a webservice
+for more sophisticated applications.
+
+\subsection{Packages}
+
+This is a description of the most important  packages and classes related to the implementation:
+
+
+\subsubsection*{IO}
+The classes in this package have the responsability of dealing with
+the input/output files.\\
+The class DictionaryReader.java is incharged of reading a raw dictionary file (one entry per line).
+
+\subsubsection*{Measures}
+This package is composed of all classes relating the different similarity measures.
+The SimString algorithm is independant of the chosen similarity, for doing this
+an interface called $Similarity$ exists within the package, in order to extend
+the system to provide new similarities measures this interface has to be implemented.\\
+\\
+Aditionally this package has a class name MeasureFactory, which is incharged of constructing
+similarities's objects.
+
+\subsubsection*{Dictionary}
+This package contains all the classes which have a responsability related to dictionaries.\\
+\\
+Among the most important ones are $LowLevelDictionaryImplementation$ this is an interface
+which allows the tool to implement differnt kinds of Dictionary Implementations, for example
+one dictionary can be represented either as a hashtable or as suffixtree, while those
+data structures are different by implementing $LowLevelDictionaryImplementation$ they become
+transparent to the simString algorithm.\\
+\\
+Additionally this package contains all the classes related to the different offered implementations
+of dictionaries.
+
+\subsubsection*{SimString}
+This package contains the class $SimString$ which given a dictionary,a similarity configuration  and a query
+is able to search in the dictionary and retrieve all the similar NE given the value of the parameters.
+
+
+\subsubsection*{Util}
+This package is composed of different classes with different responsabilities.
+The $NGram$ class is incharged of splitting words into ngrams and dealing with any specific functionality related to ngrams.
+
+\subsubsection*{Examples}
+This package contains classes (each one is an example) for the potential users.
+
+\subsubsection*{Test}
+This package contains classes which allow team to asses the time performance of the tool and make comparisons among the different implementations.
+
+
+
+
+
 The memory mapped hashtable comes with a memory cost, that is since the speed of  a hashtable is to be kept but it will be stored in different files, then a lot of markers and a fix offset of bytes has to be used in order to assure what is in each slot, this means extra memory will be necessary when compared ot the other dictionaries implementations.
 
 To developers NerSimString was implemented in such way so that adding a new dictionary implementation is ndependant of the simString algorithm, in such way new experiments and datastructures can be added.
