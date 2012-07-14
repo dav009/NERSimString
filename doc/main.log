@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2011.10.21)  14 JUL 2012 16:49
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2011.10.21)  14 JUL 2012 17:08
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -482,25 +482,9 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \mult@nat@firstbox=\box52
 \colbreak@box=\box53
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 
-(/etc/texmf/tex/latex/config/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: xetex.def on input line 130.
-
-(/usr/share/texmf-texlive/tex/xelatex/xetex-def/xetex.def
-File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
-
-))
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks19
-)
 (/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -511,6 +495,25 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: xetex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+)))
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: xetex.def on input line 130.
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
 )
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
@@ -522,39 +525,39 @@ LaTeX Warning: Unused global option(s):
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
  (/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 15.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 16.
 
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 16.
+(Font)              <12> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 16.
+(Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 16.
+(Font)              <6> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
+(Font)              <5> on input line 17.
  (./intro.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
@@ -590,7 +593,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--34
 
  []
 
-[2]) (./implementation.tex
+[2]) (./algorithm.tex [3]
+File: graphics/simStringAlgorithm.eps Graphic file (type eps)
+ <graphics/simStringAlgorithm.eps> [4
+
+])
+(./implementation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 19--26
 
  []
@@ -610,7 +618,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--46
 
  []
 
-[3]
+[5
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 69--81
 
  []
@@ -620,28 +630,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--81
 
  []
 
-[4]
+[6]
 File: graphics/dictionaryImplementations.eps Graphic file (type eps)
- <graphics/dictionaryImplementations.eps> [5]
+ <graphics/dictionaryImplementations.eps>
 Overfull \hbox (10.80623pt too wide) in paragraph at lines 98--100
 \OT1/cmr/m/n/10 This is an im-ple-men-ta-tion of the in-verted in-dex of ngrams
  by us-ing Java HashMaps. 
  []
 
+[7]
 File: graphics/memoryMappedVsNonMemoryMapped.eps Graphic file (type eps)
-<graphics/memoryMappedVsNonMemoryMapped.eps>) (./results.tex) (./conclusion.tex
-) [6] (./main.aux)
+ <graphics/memoryMappedVsNonMemoryMapped.eps>) (./results.tex)
+(./conclusion.tex) [8] (./main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2919 strings out of 495724
- 35473 string characters out of 1189345
- 80086 words of memory out of 3000000
- 6013 multiletter control sequences out of 15000+50000
+ 2940 strings out of 495724
+ 35853 string characters out of 1189345
+ 78795 words of memory out of 3000000
+ 6028 multiletter control sequences out of 15000+50000
  9234 words of font info for 32 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 34i,11n,23p,285b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,11n,23p,285b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (6 pages).
+Output written on main.pdf (8 pages).
