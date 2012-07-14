@@ -17,7 +17,7 @@ public class LookUpTest {
             public static double testMappedHashTable(){
                 //specifies the number of n-grams : 3
                  //the output file of the dictionary: dbDav.test
-                 LowLevelHashMappedDictionary2 dimp=new LowLevelHashMappedDictionary2(3,"/home/attickid/testOutput/dbDav.test");
+                 LowLevelHashMappedDictionary2 dimp=new LowLevelHashMappedDictionary2(3,"/home/attickid/testOutput/canadianActors.db");
                  
                  //wrapping the lowlevel implementation
                  DictionaryGenerator d1=new DictionaryImplementation(dimp);
@@ -25,7 +25,7 @@ public class LookUpTest {
                  //tells where is the dictionary that one wants to process
                  //the number of n-grams 
                  //the dictonayImplementation that is incharged of making it
-                DictionaryReader.createDictionaryFromCorpus("/home/attickid/ned.train2",3,d1);
+                DictionaryReader.createDictionaryFromCorpus("/home/attickid/canadianActors",3,d1);
                  //saves the dictionary into memeory
                  dimp.commit();
        
@@ -64,14 +64,17 @@ public class LookUpTest {
     
              public static void main(String[] args){
                   
+                 
+                 //mapped hash table
+                double averageMappedHashTables=  testMappedHashTable(); 
+                 
                  //test for suffixtrees
                 double averageSuffixTrees= testSuffixTrees();
                  
                  //hash table
                 double averageHashTables= testHashtables(); 
                 
-                 //hash table
-                double averageMappedHashTables=  testMappedHashTable(); 
+                 
                 
                 
                 System.out.println("average suffix trees:"+ averageSuffixTrees);

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2011.10.21)  11 JUL 2012 20:35
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2011.10.21)  14 JUL 2012 15:22
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -555,22 +555,50 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 16.
- (./intro.tex [1
+ (./intro.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
 
-]
-Overfull \hbox (133.90836pt too wide) in paragraph at lines 57--59
-[]\OT1/cmr/m/n/10 Where is the code avail-able? the repos-i-tory is hosted at g
-ithub : https://github.com/dav009/NERSimString 
+Underfull \hbox (badness 10000) in paragraph at lines 3--13
+
  []
 
-) (./implementation.tex) (./results.tex) (./conclusion.tex) [2] (./main.aux) ) 
-Here is how much of TeX's memory you used:
- 2902 strings out of 495724
- 35125 string characters out of 1189345
- 79086 words of memory out of 3000000
- 6002 multiletter control sequences out of 15000+50000
- 8592 words of font info for 30 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 34i,11n,23p,380b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (2 pages).
+Underfull \hbox (badness 10000) in paragraph at lines 3--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
+
+ []
+
+[2]) (./implementation.tex) (./results.tex) (./conclusion.tex) [3] (./main.aux)
+ ) 
+Here is how much of TeX's memory you used:
+ 2907 strings out of 495724
+ 35190 string characters out of 1189345
+ 79086 words of memory out of 3000000
+ 6006 multiletter control sequences out of 15000+50000
+ 9234 words of font info for 32 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 34i,11n,23p,262b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on main.pdf (3 pages).
