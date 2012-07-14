@@ -52,12 +52,28 @@ This package contains classes (each one is an example) for the potential users.
 This package contains classes which allow team to asses the time performance of the tool and make comparisons among the different implementations.
 
 
+\subsection{Dictionary Implementations}
+
+As an addition to the simstring algorithm, the team introduced different ways to implement
+the underlying data structure representing the ngram-inverted index.\\
+\\
+There are two types of data structures alternatives: mapped and not mapped.
+Not mapped data structures are traditional data structures, that is, structures that are kept entirely on memory while the program is running. \\
+As opposed to this type  there are mapped data structures which are data structures saved in the hard disk
+and as data from it is needed small chunks of the datastructure are loaded into memory.\\
+\\
+The memory mapped data structures are ideally for cases when the number of data being stored is very high and having the whole datastructure in memory at once is not feasible.
+However memory mapped data structures come with a cost: $Memory$.\\
+Since memory mapped data structure implementations want to be as fast as traditional data structures, they have to be stored in memory in a way they can be queried quickly.\\
+The only way to assure this is by having a fixed number of bits used per data field in the mapped data structure,this means, that no matter the size of the data, a slot in this structures will always have a fix size, this means using extra memory.
 
 
+\subsubsection{SuffixTree}  
 
-The memory mapped hashtable comes with a memory cost, that is since the speed of  a hashtable is to be kept but it will be stored in different files, then a lot of markers and a fix offset of bytes has to be used in order to assure what is in each slot, this means extra memory will be necessary when compared ot the other dictionaries implementations.
+it is a dictionary based on a suffixTree hold in memory
 
-To developers NerSimString was implemented in such way so that adding a new dictionary implementation is ndependant of the simString algorithm, in such way new experiments and datastructures can be added.
-
-
+\subsubsection{Naive-HashTable}
+  it is a dictionary based on hashTabes hold in memory
+  
+\subsubsection{MemoryMapped Hashtable:}it is a dictionary based on hashmaps,it is meant to be for huge amoutns
 
