@@ -24,6 +24,14 @@ the system to provide new similarities measures this interface has to be impleme
 Aditionally this package has a class name MeasureFactory, which is incharged of constructing
 similarities's objects.
 
+\begin{figure}[h!]
+  \caption{Class Diagram with respect to Similarity classes}
+  \centering
+    \includegraphics[scale=0.45]{graphics/similarities}
+   \label{fig:similarityClasses}  
+\end{figure}
+
+
 \subsubsection*{Dictionary}
 This package contains all the classes which have a responsability related to dictionaries.\\
 \\
@@ -35,6 +43,9 @@ transparent to the simString algorithm.\\
 \\
 Additionally this package contains all the classes related to the different offered implementations
 of dictionaries.
+
+
+
 
 \subsubsection*{SimString}
 This package contains the class $SimString$ which given a dictionary,a similarity configuration  and a query
@@ -54,6 +65,7 @@ This package contains classes which allow team to asses the time performance of 
 
 \subsection{Dictionary Implementations}
 
+
 As an addition to the simstring algorithm, the team introduced different ways to implement
 the underlying data structure representing the ngram-inverted index.\\
 \\
@@ -68,12 +80,34 @@ Since memory mapped data structure implementations want to be as fast as traditi
 The only way to assure this is by having a fixed number of bits used per data field in the mapped data structure,this means, that no matter the size of the data, a slot in this structures will always have a fix size, this means using extra memory.
 
 
+\begin{figure}[h!]
+  \caption{The Dictionary Implementations}
+  \centering
+    \includegraphics[scale=0.45]{graphics/dictionaryImplementations}
+   \label{fig:dictionaryClasses}  
+\end{figure}
+
+
+
 \subsubsection{SuffixTree}  
 
-it is a dictionary based on a suffixTree hold in memory
+This is an implementation of the inverted index of ngrams by using suffixTrees.\\
+The keys in this case are strings of the shape: $ngram$-$sizeOfString$, the values are Priority Queues with the id's of dictionary entries which size is $sizeOfString$ and contains the given  $ngram$.
 
 \subsubsection{Naive-HashTable}
-  it is a dictionary based on hashTabes hold in memory
+ This is an implementation of the inverted index of ngrams by using Java HashMaps.\\
+The keys in this case are strings of the shape: $ngram$-$sizeOfString$, the values are Priority Queues with the id's of dictionary entries which size is $sizeOfString$ and contains the given  $ngram$.
   
-\subsubsection{MemoryMapped Hashtable:}it is a dictionary based on hashmaps,it is meant to be for huge amoutns
+\subsubsection{MemoryMapped Hashtable}
+ This is an implementation of the inverted index of ngrams by using memory mapped Hashtables.\\
+It allows to save the generated dictionary in a file and to load it for later use.
 
+\begin{figure}[h!]
+  \caption{Comparison between Mapped Datastructures and not mapped}
+  \centering
+    \includegraphics[scale=0.5]{graphics/memoryMappedVsNonMemoryMapped}
+   \label{fig:mappedDataStructures}  
+\end{figure}
+
+
+  

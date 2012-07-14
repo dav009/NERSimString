@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2011.10.21)  14 JUL 2012 16:19
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2011.10.21)  14 JUL 2012 16:49
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -595,38 +595,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--26
 
  []
 
+File: graphics/similarities.eps Graphic file (type eps)
+<graphics/similarities.eps>
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--38
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--38
+Underfull \hbox (badness 10000) in paragraph at lines 36--46
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 57--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--81
 
  []
 
-[4]) (./results.tex) (./conclusion.tex) [5] (./main.aux)
+[4]
+File: graphics/dictionaryImplementations.eps Graphic file (type eps)
+ <graphics/dictionaryImplementations.eps> [5]
+Overfull \hbox (10.80623pt too wide) in paragraph at lines 98--100
+\OT1/cmr/m/n/10 This is an im-ple-men-ta-tion of the in-verted in-dex of ngrams
+ by us-ing Java HashMaps. 
+ []
+
+File: graphics/memoryMappedVsNonMemoryMapped.eps Graphic file (type eps)
+<graphics/memoryMappedVsNonMemoryMapped.eps>) (./results.tex) (./conclusion.tex
+) [6] (./main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2907 strings out of 495724
- 35190 string characters out of 1189345
- 79086 words of memory out of 3000000
- 6006 multiletter control sequences out of 15000+50000
+ 2919 strings out of 495724
+ 35473 string characters out of 1189345
+ 80086 words of memory out of 3000000
+ 6013 multiletter control sequences out of 15000+50000
  9234 words of font info for 32 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  34i,11n,23p,285b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (5 pages).
+Output written on main.pdf (6 pages).
