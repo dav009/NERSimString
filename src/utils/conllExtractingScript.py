@@ -17,6 +17,10 @@ class ConllReader:
 
 				#read the corpus and separate the entities
 				self.readFile()
+
+				#original file with no annotations
+				self.originalFile=""
+
 				#write the list of entities
 				self.writeFiles()
 
@@ -31,6 +35,8 @@ class ConllReader:
 					content=content+entity+"\n"
 				file_=open(key,'w')
 				file_.write(content)
+			file_=open(originalCorpus,'w')
+			file_.write(self.originalFile)
 
 
 
@@ -53,11 +59,17 @@ class ConllReader:
 			currentEntity['entity']=""
 			previousType=""
 			for line in corpusFile.readlines():
+
 				line=line.strip()
+				if(line==""):
+					self.originalFile=self.originalFile+"\n"
 				if(line!=""):
 					partsOfLine=line.split(" ")
 					entityType=partsOfLine[3].strip()
 					partOfEntity=partsOfLine[0].strip()
+
+					#get the original text
+					self.originalFile=self.originalFile+partsOfLine[0]
 					
 					#if the type of the curreent entity is hte same as the previous line then gather them as one entity
 					
