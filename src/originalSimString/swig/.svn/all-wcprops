@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/Makefile.in
+END
+export.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/export.cpp
+END
+export.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/export.h
+END
+export.i
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/export.i
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/Makefile.am
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/Makefile
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/python
+END
+simstring.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/python/simstring.py
+END
+prepare.sh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/python/prepare.sh
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/python/setup.py
+END
+sample.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/python/sample.py
+END
+export_wrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/python/export_wrap.cpp
+END
+setup.py.in
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/python/setup.py.in
+END
+sample_unicode.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/python/sample_unicode.py
+END

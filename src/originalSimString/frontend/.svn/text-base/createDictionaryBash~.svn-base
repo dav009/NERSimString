@@ -1,0 +1,18 @@
+
+#!/bin/bash
+#Author: David Przybilla
+#Date: July 2012
+#bash to call simstring creating a dictionary
+#$1 argument whether to use unicode or not
+#$2 argument outfile of the dictonary bd
+#$3 argument input file to create the dictionary
+#$4 simString direcory
+echo "Bash script for calling Simstring..."
+echo "Creating a Dictionary..."
+echo "Calling bash"
+echo $0
+echo $1
+echo $2
+echo $3
+$4 $1 -d $2 < $3
+

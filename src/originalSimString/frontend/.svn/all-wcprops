@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend
+END
+simstring
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/simstring
+END
+frontend.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/frontend.vcproj
+END
+main.o
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/main.o
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/Makefile.in
+END
+optparse.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/optparse.h
+END
+createDictionaryBash~
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/createDictionaryBash~
+END
+createDictionaryBash
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/createDictionaryBash
+END
+prueba.txt~
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/prueba.txt~
+END
+prueba.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/prueba.txt
+END
+makeSearchBash~
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/makeSearchBash~
+END
+makeSearchBash
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/makeSearchBash
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/main.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/Makefile.am
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/Makefile
+END
+simstringbash
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/frontend/simstringbash
+END

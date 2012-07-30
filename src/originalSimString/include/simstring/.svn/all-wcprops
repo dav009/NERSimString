@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/include/simstring
+END
+memory_mapped_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/include/simstring/memory_mapped_file.h
+END
+memory_mapped_file_posix.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/include/simstring/memory_mapped_file_posix.h
+END
+memory_mapped_file_win32.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/include/simstring/memory_mapped_file_win32.h
+END
+simstring.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/include/simstring/simstring.h
+END
+measure.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/include/simstring/measure.h
+END
+ngram.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/include/simstring/ngram.h
+END
+cdbpp.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/include/simstring/cdbpp.h
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/ruby
+END
+sample.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/ruby/sample.rb
+END
+prepare.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/ruby/prepare.sh
+END
+extconf.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/ruby/extconf.rb
+END
+sample_unicode.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/ruby/sample_unicode.rb
+END
+export_wrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/ruby/export_wrap.cpp
+END
+extconf.rb.in
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/nep/!svn/ver/550/NERHUB/trunk/core_interface_merge/simString/simstring-1.0/swig/ruby/extconf.rb.in
+END
