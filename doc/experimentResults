@@ -1,0 +1,74 @@
+Dictionary: PER conll
+Looking for Random Strings
+ngramsize: 3
+Threshold: 0.2
+average suffix trees: 2.6034846156E8 = 0.26034846156
+average hash table: 1.600577245E8 = 0.1600577245 
+average mapped hash table: 3.80930022975E8 = 0.38093002297
+
+size of mapped hash table: 56mb
+200search per method
+--------------------------------------
+--------------------------------------------------------------------
+-------------------------------------------------------------
+Dictionary: PER conll
+Looking for Random Strings
+ngramsize: 5
+Threshold: 0.2
+average suffix trees: 1.3545810821E8 = 0.13545810821
+average hash table: 1.90732124205E8 = 0.1907321242 
+average mapped hash table: 1.3516753774E8 = 0.13516753774
+200search per method
+53mb
+--------------------------------
+Dictionary: PER conll
+Looking for Random Strings
+ngramsize: 8
+Threshold: 0.2
+average suffix trees: 1.86302116675E8 = 0.18630211667
+average hash table: 1.774560892E8 = 0.1774560892
+average mapped hash table: 1.9634142339E8 = 0.19634142339
+200search per method
+135mb
+
+simString
+simString: 1.198204536E7 = 0.1198204536
+ngramsize: 3
+threshold: 0.2
+
+
+========================CONLL DATA===============================
+Dictionary: PER conll
+each line of the conll text as query
+ngramsize: 8
+Threshold: 0.8
+average suffix trees: 1.003509663E9 = 1.003509663
+average hash table: 2.200090178E9 = 2.200090178
+average mapped hash table: 1.927359551E9 = 1.927359551
+200 words
+
+
+Dictionary: PER conll
+each line of the conll text as query
+ngramsize: 5
+Threshold: 0.8
+average suffix trees: 4.48093155E8 = 0.448093155
+average hash table: 5.99589026E8 = 0.599589026
+average mapped hash table: 1.480562861E9 = 1.480562861
+200 words
+
+Dictionary: PER conll
+each line of the conll text as query
+ngramsize: 3
+Threshold: 0.8
+average suffix trees: 3.17907188E8 = 0.317907188
+average hash table: 6.11821308E8 = 0.611821308
+average mapped hash table: 1.132227919E9 = 1.132227919
+200 words
+
+
+simstring
+Threshold: 0.8
+ngram=3
+simstring: 2.774974599E9 = 2.774974599
+200 words

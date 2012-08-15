@@ -1,0 +1,57 @@
+\texttt{NERSimString} algorithm with three different dictionary implementations were evaluated by using the CoNLL-2003 Shared Task Data Corpus\footnote{Data files available at: http://www.clips.ua.ac.be/conll2003/ner/} \footnote{English data set request from: http://trec.nist.gov/data/reuters/reuters.html}. We compared the dictionary implementation models against the original SimString algorithm implementation as the baseline. The evaluation of these different implementations measured the average processing time\//\textit{per second} of the dictionaries by considering the given \texttt{n-gram} sizes and different similarity \texttt{thresholds}.
+
+We evaluated these dictionaries on two different CoNLL data settings, only for PER (\textit{person\_NE}) Named Entity type:
+\begin{enumerate}[i.]
+	\item First, we tested the dictionaries by taking 200 \textbf{random} search strings per method.
+	\item Second, we tested the dictionaries by taking the first 200 words from the CoNLL corpus.
+\end{enumerate}
+
+The following tables show the results for the average processing times returned by each of the dictionary implementations:
+
+\begin{center}
+
+\begin{table}[H]
+\scalebox{0.9}{
+  \begin{tabular}{| l | c | c | c | c | r| }
+    
+    \hline
+    \textbf{ } & \textbf{SuffixTree} & \textbf{HashTable} & \textbf{Mapped HashTable} & \textbf{SimString}\\ \hline
+    \texttt{Threshold} & 0.2 & 0.2 & 0.2 & 0.2   \\ \hline
+    \texttt{N-Gram:3-Avg.Time} & 0.26034846156 & 0.1600577245 & 0.38093002297 & 0.1198204536   \\ \hline
+    \texttt{N-Gram:5-Avg.Time} & 0.13545810821 & 0.1907321242 & 0.13516753774 & -   \\ \hline
+    \texttt{N-Gram:8-Avg.Time} & 0.18630211667 & 0.1774560892 & 0.19634142339 & -   \\ \hline
+
+    \hline
+  \end{tabular}
+  }
+  \caption{Average Look-up Time Results Based on 200 Random Strings}
+  \end{table}
+  
+\end{center}
+
+\begin{center}
+
+\begin{table}[H]
+\scalebox{0.9}{
+  \begin{tabular}{| l | c | c | c | c | r| }
+    
+    \hline
+    \textbf{ } & \textbf{SuffixTree} & \textbf{HashTable} & \textbf{Mapped HashTable} & \textbf{SimString}\\ \hline
+    \texttt{Threshold} & 0.8 & 0.8 & 0.8 & 0.8   \\ \hline
+    \texttt{N-Gram:3-Avg.Time} &   0.317907188  & 0.611821308 & 1.132227919 & 2.774974599   \\ \hline
+    \texttt{N-Gram:5-Avg.Time} &   0.448093155  & 0.599589026 & 1.480562861 & -   \\ \hline
+    \texttt{N-Gram:8-Avg.Time} &   1.003509663  & 2.200090178 & 1.927359551 & -   \\ \hline
+    
+    \hline
+  \end{tabular}
+  }
+  \caption{Average Look-up Time Results Based on First 200 Strings on CoNLL Data}
+  \end{table}  
+\end{center}
+
+These results show that the \texttt{SuffixTree} and the regular\textit{(naive)} \texttt{HashTable} Dictionary implementation outputs were relatively close to the original \texttt{SimString} algorithm implementation. The \texttt{Mapped HashTable} Dictionary handled the data input efficiently as well, however due to the construction of memory mapped structure, the average look-up times resulted in more time than the other two dictionary implementations.
+
+
+
+	
+	

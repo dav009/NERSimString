@@ -1,0 +1,18 @@
+For more straightforward and simpler NER tasks with a narrower focus, exact dictionary look-up methods can be used as well. However, besides non-user generated data, the SimString method targets the user generated data \emph{(i.e., social network corpus)} as well. Because user-generated data can have many variations, including potentially misspelled words, while dealing with user-generated data, \texttt{NERSimString} offers fast, approximate string retrieval. In these terms, it provides a quick way to make the search on the cost of space.\\
+%\subsection*{What does NERSimString offer?}
+
+In the \texttt{NERSimString} algorithm, \texttt{NerSimString} dictionary is  created from a list of items made of one Named Entity--\emph{which can be multi-word}--per line. Fast search queries can be requested via this dictionary. On this paper, for the purpose of comparing different dictionary set-ups; we adopted three different low-level implementations\footnote{The implementation source code is available at: https://github.com/dav009/NERSimString}:
+\begin{enumerate}
+ 	\item \textbf{SuffixTree Implementation:} A dictionary based on a suffix tree to hold in memory
+ 	\item \textbf{Naive-HashTable Implementation:} A dictionary based on hash tables to hold in memory
+ 	\item \textbf{MemoryMapped Hashtable Implementation:} A dictionary based on hash maps, that is meant for large amounts of data. In order to avoid being completely loaded into memory, it is dynamically stored in the disk.\end{enumerate}
+%\subsection*{What kind of similarities?}
+
+In order to provide approximate string retrieval, the following similarity measures have been used:\\
+\begin{enumerate}[i.]
+			\item Jaccard
+			\item Dice
+			\item Cosine
+\end{enumerate}
+%\subsection*{Why is it fast?}
+With these settings, \texttt{NERSimString} works fast by creating an inverted list of the size of n-grams. Based on one of the given similarity measures and a specific threshold, it measures how many n-grams at a certain length are the most likely to match the given NE query. This enables the system to discard as many alternatives as possible, which then makes the fast search possible. Thus, given these settings, the SimString model can be used both for the annotation of Named Entities and for the extension of current NER systems that are trained to predict Named Entities.

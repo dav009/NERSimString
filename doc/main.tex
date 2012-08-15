@@ -1,6 +1,7 @@
 \documentclass[4pt,a4paper]{article}
+\usepackage[blocks]{authblk}
 \usepackage[utf8]{inputenc}
- \usepackage[english]{babel}
+\usepackage[english]{babel}
 \usepackage{algorithm}
 \usepackage{textcomp}
 \usepackage{fontenc}
@@ -9,20 +10,34 @@
 \usepackage{lscape}
 \usepackage{color}
 \usepackage{graphicx}
+\usepackage{enumerate}
+%\usepackage{epsfig}
+%\usepackage{epstopdf}
+\usepackage{amsmath}
+\usepackage{framed}
 
 
-\author{Sibel Ciddi\footnote{sciddi@coli.uni-saarland.de},\hspace{5 mm} Noushin Fadaie\footnote{fadaei.noushin@gmail.com},\hspace{5 mm} David Przybilla\footnote{dav.alejandro@gmail.com}}
-\title{Fast Search for NER\\Basic Algorithms for Computational Linguistics Project}
 \begin{document}
+\author{David Przybilla\footnote{dav.alejandro@gmail.com},\hspace{3 mm}Sibel Ciddi\footnote{sciddi@coli.uni-sb.de},\hspace{3 mm}Noushin Fadaie\footnote{nfadaei@coli.uni-sb.de},\hspace{3 mm}Moinuddin Haque\footnote{moinuddinmushirul@gmail.com}}
+%\affil[]{\textit{sciddi@coli.uni-sb.de, nfadaei@coli.uni-sb.de, dav.alejandro@gmail.com, moinuddinmushirul@gmail.com}}
+\affil{Universit\"at des Saarlandes\\ \small Computational Linguistics \& Phonetics,\\Saarbr\"ucken, Germany}
+\title{Fast Search for Named Entity Recognition\\ \large Summer 2012: Basic Algorithms for Computational Linguistics}
 \maketitle
 
+\input{abstract.tex}
+%newpage
 
 \section{Introduction}
 \label{sec:intro}
 \input{intro.tex}
 %\newpage
 
-\section{SimString Algorithm}
+\section{The SimString Method}
+\label{sec:simString}
+\input{simstring-discuss.tex}
+%newpage
+
+\section{The SimString Algorithm}
 \label{sec:algorithm}
 \input{algorithm.tex}
 %\newpage
@@ -32,7 +47,7 @@
 \input{implementation.tex}
 %\newpage
 
-\section{Testing and Results}
+\section{Evaluation and Results}
 \label{sec:results}
 \input{results.tex}
 %\newpage
@@ -41,5 +56,6 @@
 \label{sec:conclusion}
 \input{conclusion.tex}
 %\newpage
-
+\bibliographystyle{plain}
+\bibliography{simString}
 \end{document}
