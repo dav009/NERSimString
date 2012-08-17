@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2011.10.21)  14 JUL 2012 17:08
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2011.10.21)  17 AUG 2012 12:22
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -22,6 +22,14 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip43
+\@affilsep=\skip44
+\c@Maxaffil=\count88
+\c@authors=\count89
+\c@affil=\count90
 )
 (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
@@ -248,7 +256,7 @@ Language: english 2005/03/30 v3.3o English support from the babel system
 
 (/usr/share/texmf-texlive/tex/generic/babel/babel.def
 File: babel.def 2008/07/06 v3.8l Babel common definitions
-\babel@savecnt=\count88
+\babel@savecnt=\count91
 \U@D=\dimen103
 )
 \l@british = a dialect from \language\l@english 
@@ -264,7 +272,7 @@ nment
 
 (/usr/share/texmf-texlive/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count89
+\c@float@type=\count92
 \float@exts=\toks16
 \float@box=\box26
 \@float@everytoks=\toks17
@@ -274,7 +282,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks18
-\c@algorithm=\count90
+\c@algorithm=\count93
 )
 (/usr/share/texmf-texlive/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -437,20 +445,20 @@ LaTeX Font Info:    Redeclaring font encoding OT1 on input line 43.
 )))
 (/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
 Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
-\c@tracingmulticols=\count91
+\c@tracingmulticols=\count94
 \mult@box=\box28
 \multicol@leftmargin=\dimen104
-\c@unbalance=\count92
-\c@collectmore=\count93
-\doublecol@number=\count94
-\multicoltolerance=\count95
-\multicolpretolerance=\count96
+\c@unbalance=\count95
+\c@collectmore=\count96
+\doublecol@number=\count97
+\multicoltolerance=\count98
+\multicolpretolerance=\count99
 \full@width=\dimen105
 \page@free=\dimen106
 \premulticols=\dimen107
 \postmulticols=\dimen108
-\multicolsep=\skip43
-\multicolbaselineskip=\skip44
+\multicolsep=\skip45
+\multicolbaselineskip=\skip46
 \partial@page=\box29
 \last@line=\box30
 \mult@rightbox=\box31
@@ -474,8 +482,8 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \@tempa=\box49
 \@tempa=\box50
 \@tempa=\box51
-\c@columnbadness=\count97
-\c@finalcolumnbadness=\count98
+\c@columnbadness=\count100
+\c@finalcolumnbadness=\count101
 \last@try=\dimen109
 \multicolovershoot=\dimen110
 \multicolundershoot=\dimen111
@@ -518,6 +526,75 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
+(/usr/share/texmf-texlive/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks20
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks21
+\ex@=\dimen114
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen115
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count102
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count103
+\leftroot@=\count104
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count105
+\DOTSCASE@=\count106
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen116
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
+\dotsspace@=\muskip10
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
+\tag@help=\toks22
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
+\andhelp@=\toks23
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks24
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/framed.sty
+Package: framed 2007/10/04 v 0.95: framed or shaded text with page breaks
+\fb@frw=\dimen123
+\fb@frh=\dimen124
+\FrameRule=\dimen125
+\FrameSep=\dimen126
+)
 
 LaTeX Warning: Unused global option(s):
     [4pt].
@@ -525,71 +602,62 @@ LaTeX Warning: Unused global option(s):
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
  (/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 16.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 20.
 
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 17.
- (./intro.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
+LaTeX Font Info:    ... okay on input line 20.
+ (./abstract.tex) (./intro.tex
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--13
-
- []
+LaTeX Warning: Citation `Okazaki:Coling2010' on page 1 undefined on input line 
+2.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
 [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 29--34
+])
+Overfull \hbox (0.33394pt too wide) in paragraph at lines 11--34
+[]\OT1/cmr/m/n/10 Therefore, in or-der to make the an-no-ta-tion task of Named 
+En-ti-ties a tractable
+ []
+
+(./simstring-discuss.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+ []
+
+
+Overfull \hbox (6.19395pt too wide) in paragraph at lines 4--4
+[][]\OT1/cmr/m/n/8 The im-ple-men-ta-tion source code is avail-able at: https:/
+/github.com/dav009/NERSimString| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
@@ -599,8 +667,19 @@ File: graphics/simStringAlgorithm.eps Graphic file (type eps)
 
 ])
 (./implementation.tex
-Underfull \hbox (badness 10000) in paragraph at lines 19--26
 
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 5.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 11.
+
+
+Overfull \hbox (10.24934pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 Additionally, \OT1/cmtt/m/n/10 Measures \OT1/cmr/m/n/10 pack-ag
+e in-cludes an-other class, named \OT1/cmtt/m/n/10 "MeasureFactory"\OT1/cmr/m/n
+/10 .
  []
 
 File: graphics/similarities.eps Graphic file (type eps)
@@ -609,50 +688,119 @@ File: graphics/similarities.eps Graphic file (type eps)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--46
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 27.
 
+
+Overfull \hbox (14.85997pt too wide) in paragraph at lines 30--31
+[]\OT1/cmr/m/n/10 One of the most im-por-tant classes, named \OT1/cmtt/m/n/10 L
+owLevelDictionaryImplementation\OT1/cmr/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--46
-
+Overfull \hbox (70.69333pt too wide) in paragraph at lines 32--34
+[]\OT1/cmr/m/n/10 Despite these dic-tio-nar-ies' dif-fer-ent data struc-tures, 
+the \OT1/cmtt/m/n/10 LowLevelDictionaryImplementation
  []
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 37.
 
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 69--81
 
- []
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 43.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--81
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 49.
 
- []
+
+LaTeX Warning: The counter will not be printed.
+             The label is: - on input line 54.
 
 [6]
 File: graphics/dictionaryImplementations.eps Graphic file (type eps)
  <graphics/dictionaryImplementations.eps>
-Overfull \hbox (10.80623pt too wide) in paragraph at lines 98--100
-\OT1/cmr/m/n/10 This is an im-ple-men-ta-tion of the in-verted in-dex of ngrams
- by us-ing Java HashMaps. 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (30.58275pt too wide) in paragraph at lines 80--81
+\OT1/cmr/m/n/10 The keys in this model are made from the strings of the shape \
+OT1/cmtt/m/n/10 `ngram-sizeOfString.'
  []
 
-[7]
 File: graphics/memoryMappedVsNonMemoryMapped.eps Graphic file (type eps)
- <graphics/memoryMappedVsNonMemoryMapped.eps>) (./results.tex)
-(./conclusion.tex) [8] (./main.aux)
+<graphics/memoryMappedVsNonMemoryMapped.eps>
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./results.tex [7] [8]
+Overfull \hbox (44.11037pt too wide) in paragraph at lines 26--27
+[][] 
+ []
+
+
+Overfull \hbox (26.31123pt too wide) in paragraph at lines 47--48
+[][] 
+ []
+
+
+Overfull \hbox (6.22237pt too wide) in paragraph at lines 52--53
+\OT1/cmr/m/n/10 Dic-tio-nary im-ple-men-ta-tion out-puts were rel-a-tively clos
+e to the orig-i-nal \OT1/cmtt/m/n/10 SimString
+ []
+
+
+Overfull \hbox (0.41728pt too wide) in paragraph at lines 52--53
+\OT1/cmr/m/n/10 data in-put ef-fi-ciently as well, how-ever due to the con-stru
+c-tion of mem-ory mapped
+ []
+
+[9]) (./conclusion.tex
+Overfull \hbox (3.91676pt too wide) in paragraph at lines 1--2
+\OT1/cmr/m/n/10 On this pa-per, we pre-sented dif-fer-ent im-ple-men-ta-tions o
+f the pro-posed \OT1/cmtt/m/n/10 SimString
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+)
+No file main.bbl.
+[10] [11] (./main.aux)
+
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2940 strings out of 495724
- 35853 string characters out of 1189345
- 78795 words of memory out of 3000000
- 6028 multiletter control sequences out of 15000+50000
- 9234 words of font info for 32 fonts, out of 3000000 for 9000
+ 3676 strings out of 495724
+ 44239 string characters out of 1189345
+ 92785 words of memory out of 3000000
+ 6727 multiletter control sequences out of 15000+50000
+ 11137 words of font info for 40 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 34i,11n,23p,285b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,9n,23p,1038b,310s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (8 pages).
+Output written on main.pdf (11 pages).
