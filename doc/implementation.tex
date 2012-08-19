@@ -17,10 +17,11 @@ In order to allow further experimentation and expansion of the tool, we aimed to
 Additionally, \texttt{Measures} package includes another class, named \texttt{"MeasureFactory"}. This class is in charge of constructing the similarities' of objects.
 
 \begin{figure}[h!]
-  \caption{Class Diagram with Respect to Similarity Classes}
+ 
   \centering
     \includegraphics[scale=0.45]{graphics/similarities}
    \label{fig:similarityClasses}  
+    \caption{Class Diagram with Respect to Similarity Classes}
 \end{figure}
 
 \subsubsection*{Dictionary}
@@ -70,9 +71,10 @@ Because the memory mapped data structure implementations aim to be as fast as tr
 is achieved by having a fixed number of bits used per data field in the mapped data structure. In other words, this means that no matter what the size of the data is, a slot in this structure will always have a fixed-size. However, having this specific structure with a fixed-size slot results in using extra memory.
 
 \begin{figure}[h!]
-  \caption{The Dictionary Implementations}
+  
   \centering
     \includegraphics[scale=0.45]{graphics/dictionaryImplementations}
+    \caption{The Dictionary Implementations}
    \label{fig:dictionaryClasses}  
 \end{figure}
 
@@ -86,9 +88,10 @@ This is an implementation of the inverted index of n-grams that uses Java HashMa
 This is an implementation of the inverted index of n-grams that uses memory mapped hash tables. It enables the generated dictionary to be saved in a file, and to be loaded for later use.
 
 \begin{figure}[h!]
-  \caption{Comparison between Mapped \& Not-Mapped Data Structures}
+  
   \centering
     \includegraphics[scale=0.5]{graphics/memoryMappedVsNonMemoryMapped}
+   \caption{Comparison between Mapped \& Not-Mapped Data Structures}
    \label{fig:mappedDataStructures}  
 \end{figure}
 
