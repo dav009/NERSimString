@@ -26,8 +26,6 @@ Examples are provided in the folder src/Examples
 
 Contact
 ============
-Examples are provided in the folder src/Examples<br>
-
 Feel free to leave an email in one of the following addresses:<br><br>
 dav.alejandro@gmail.com <br>
 sciddi@coli.uni-sb.de<br>
